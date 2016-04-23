@@ -16,7 +16,7 @@ import br.com.livro.util.JAXBUtil;
 import br.com.livro.util.ServletUtil;
 
 @WebServlet ("/carros/*")
-public class CarroServlet extends HttpServlet {
+public class CarrosServlet extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	private CarroService carroservice = new CarroService();
 	@Override
